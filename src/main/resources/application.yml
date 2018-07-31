@@ -1,0 +1,17 @@
+server:
+    port: 9000
+
+management:
+    address: 127.0.0.1
+    port: 9100
+
+logging:
+    level:
+        com.linecorp.sample: DEBUG
+
+linecorp:
+    platform:
+        channel:
+            channelId: 1588530309
+            channelSecret : f3af2c3f398779403c5478869f64572a
+            callbackUrl : http://localhost:1111/KTB-Line-Register/checkRegister
